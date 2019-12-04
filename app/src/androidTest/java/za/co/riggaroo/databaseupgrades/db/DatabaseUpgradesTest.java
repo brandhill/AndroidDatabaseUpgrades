@@ -1,12 +1,13 @@
 package za.co.riggaroo.databaseupgrades.db;
 
 import android.support.test.InstrumentationRegistry;
+import android.support.test.filters.LargeTest;
 import android.support.test.runner.AndroidJUnit4;
-import android.test.suitebuilder.annotation.LargeTest;
+
 import android.util.Log;
 
-import junit.framework.Assert;
 
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
